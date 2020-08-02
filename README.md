@@ -1,4 +1,4 @@
-# 2TL2 Castermane Robin - Projet d'Administration système et réseaux II 
+# 2TL2 Projet d'Administration système et réseaux II 
 Projet d'administration système - WoodyToys
 
 # Groupe
