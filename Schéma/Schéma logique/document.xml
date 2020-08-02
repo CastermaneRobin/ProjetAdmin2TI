@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document OS="Linux" DocGuid="{f1071b03-28c2-4c30-9a76-e988e4bfb46b}" Version="10.0.4">
+    <DocConfig>
+        <Solution V="501"/>
+        <SolMask V="0"/>
+        <UpdatePageName V="FALSE"/>
+        <ShowGrid V="TRUE"/>
+        <ShowRuler V="TRUE"/>
+        <ShowGuideline V="TRUE"/>
+        <ShowPageBreak V="TRUE"/>
+        <OrgAutoLayout V="TRUE"/>
+        <mmAutoLayout V="TRUE"/>
+        <mmLockCon V="TRUE"/>
+    </DocConfig>
+    <Stencils>
+        <Stencil Path="176"/>
+        <Stencil Path="177"/>
+        <Stencil Path="178"/>
+        <Stencil Path="179"/>
+        <Stencil Path="180"/>
+        <Stencil Path="181"/>
+        <Stencil Path="182"/>
+        <Stencil Path="183"/>
+    </Stencils>
+    <ActivePageIndex V="0"/>
+    <Pages V="1"/>
+    <Dpi V="1"/>
+    <ScreenWidth V="1920"/>
+    <ScreenHeight V="1080"/>
+    <Platform V="desk"/>
+    <CreatedDate V="2020-08-02 16:52:43"/>
+    <Creator V="robin"/>
+    <ModifiedDate V="2020-08-02 18:58:05"/>
+    <Modifier V="robin"/>
+</Document>
