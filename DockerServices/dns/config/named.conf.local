@@ -1,0 +1,26 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+view internal{
+	match-clients {51.178.40.91; localhost;};
+	recursion yes;
+	allow-recursion {51.178.40.91: localhost;};
+	zone "castermane.ephec-ti.be" {
+		type master;
+		file "/etc/bind/db.internal.castermane.ephec-ti.be";
+	};
+};
+
+view external {
+	match-clients {any;};
+	recursion no;
+	zone "castermane.ephec-ti.be" {
+		type master;
+		file "/etc/bind/db.castermane.ephec-ti.be
+	};
+};

@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+        siteVitrine:
+                image: webserver
+                container_name: siteVitrine
+                ports:
+                        - "8080:80/tcp"
+                networks:
+                        - reseauWeb
+
+networks:
+        reseauWeb:
