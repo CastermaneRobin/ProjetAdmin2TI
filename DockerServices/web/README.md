@@ -1,9 +1,9 @@
-1)
+1) Pour créer l'image :
 
-docker build -t webserver .
+sudo docker build -t webserver .
 
-2)
+2) Pour lancer le service en background :
 
-docker run -itd -p 8080:80 webserver
+sudo docker-compose up -d
 
 
